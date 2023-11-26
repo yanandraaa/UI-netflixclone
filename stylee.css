@@ -1,0 +1,362 @@
+:root {
+  --primary: #e50914;
+  --second: #d00000;
+  --third: #495057;
+  --fourth: #adb5bd;
+  --fifth: #333533;
+}
+
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #000;
+  color: #fff;
+}
+
+/* HEADER - NAVBAR */
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(img/Netflix-Background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
+
+.navbar {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.logo {
+  height: 50%;
+  margin-top: 0.2rem;
+  display: flex;
+  align-items: center;
+  padding-top: 0.2rem;
+  color: var(--primary);
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 4.2rem;
+  font-weight: 599;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+}
+
+.kanan {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.2rem;
+  margin-top: 0.1rem;
+}
+
+.dropdownn {
+  border: 1px solid white;
+  outline: #fff;
+  width: 230px;
+  font-size: 1.3rem;
+}
+
+.button {
+  background-color: var(--primary);
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+.button:hover {
+  background-color: rgba(229, 9, 20, 0.7);
+}
+
+/* CONTENT */
+.contentt {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.teks-1 {
+  margin-top: 1rem;
+  font-size: 3.8rem;
+  font-weight: 800;
+}
+
+.teks-2 {
+  font-size: 2.1rem;
+  font-weight: 400;
+}
+
+.teks-3 {
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.contentbawah {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.9rem;
+}
+
+.inputt {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  margin-right: 0.7rem;
+  border-radius: 5px;
+  width: 470px;
+  height: 60px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+
+.inputt::-webkit-input-placeholder {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.buttonn {
+  background-color: var(--second);
+  color: white;
+  font-size: 1.7rem;
+  font-weight: 600;
+  width: 200px;
+  padding: 0.6rem 0.8rem;
+}
+
+.buttonn:hover {
+  background-color: rgba(208, 0, 0, 0.9);
+}
+
+/* SECTION */
+.sectionsatu,
+.sectiondua,
+.sectiontiga,
+.sectionempat {
+  border-top: 8px solid var(--fifth);
+}
+
+.sectionempat {
+  border-bottom: 8px solid var(--fifth);
+}
+
+.sectionone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.section-one {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.tulisan {
+  display: flex;
+  flex-direction: column;
+  padding: 6rem 4rem;
+}
+
+.gambar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tivi {
+  font-size: 3.5rem;
+  font-weight: 800;
+  padding-top: 1.5rem;
+}
+
+.tivii {
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  text-align: justify;
+}
+
+/* SECTION TWO */
+.sectiontwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.section-two {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 4rem;
+}
+
+.tulisann {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+
+.gambarr {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.orang {
+  font-size: 3.5rem;
+  font-weight: 800;
+  padding-top: 1.5rem;
+}
+
+.orangg {
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  text-align: justify;
+}
+
+/* SECTION THIRD */
+.sectionthird {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.section-third {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.tulisannn {
+  display: flex;
+  flex-direction: column;
+  padding: 6rem 3rem;
+}
+
+.gambarrr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.laptop {
+  font-size: 3.5rem;
+  font-weight: 800;
+  padding-top: 1.5rem;
+}
+
+.laptopp {
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  text-align: justify;
+}
+
+/* SECTION FOUR */
+.sectionfour {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.section-four {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 4rem;
+}
+
+.tulisannnn {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+  margin-top: 3rem;
+}
+
+.gambarrrr {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.kid {
+  font-size: 3.5rem;
+  font-weight: 800;
+  padding-top: 1.5rem;
+}
+
+.kids {
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  text-align: justify;
+}
+
+.down {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* FOOTER */
+footer {
+  color: var(--fourth);
+}
+
+.footer {
+  margin-top: 4rem;
+}
+
+.footer a {
+  color: var(--fourth);
+}
+
+.dua {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+
+.cab,
+.cabb,
+.cabbb,
+.cabbbb {
+  display: flex;
+  flex-direction: column;
+}
+
+.dua a {
+  color: var(--fourth);
+  margin-bottom: 0.8rem;
+  font-size: 1.2rem;
+}
+
+.tiga {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}

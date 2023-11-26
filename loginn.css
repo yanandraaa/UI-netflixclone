@@ -1,0 +1,241 @@
+:root {
+  --primary: #e50914;
+  --second: #d00000;
+  --third: #495057;
+  --fourth: #adb5bd;
+  --fifth: #333533;
+}
+
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #000;
+  color: #fff;
+}
+
+/* HEADER - NAVBAR */
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(img/Netflix-Background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.logo {
+  height: 50%;
+  margin-top: 0.2rem;
+  display: flex;
+  align-items: center;
+  padding-top: 0.2rem;
+  color: var(--primary);
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 4.2rem;
+  font-weight: 599;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+}
+
+.contentt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentlagi {
+  padding: 4rem 5rem;
+  width: 42%;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+}
+
+.atas {
+  display: flex;
+  flex-direction: column;
+}
+
+.signn {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1.9rem;
+}
+
+.input-1 {
+  background: transparent;
+  height: 58px;
+  background-color: rgba(51, 53, 51, 0.9);
+  padding: 1rem;
+  border-radius: 5px;
+  color: #fff;
+  margin-bottom: 1.3rem;
+  border: none;
+}
+
+.input-1::-webkit-input-placeholder {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.input-2 {
+  background: transparent;
+  height: 58px;
+  background-color: rgba(51, 53, 51, 0.9);
+  padding: 1rem;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+}
+
+.input-2::-webkit-input-placeholder {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.btnn {
+  background-color: var(--primary);
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 0.8rem;
+  font-weight: 600;
+  margin-top: 3.2rem;
+}
+
+.btnn:hover {
+  background-color: rgba(229, 9, 20, 0.7);
+}
+
+.tengah-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tengah-kiri {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: var(--fourth);
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.radioo:after {
+  width: 25px;
+  height: 25px;
+  background-color: var(--fourth);
+}
+
+.tengah-kanan a {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: var(--fourth);
+}
+
+.bawah {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3.5rem;
+  font-size: 1.3rem;
+}
+
+.bawah-1 {
+  display: flex;
+  flex-direction: row;
+  color: var(--fourth);
+}
+
+.bawah-2 {
+  display: flex;
+  flex-direction: row;
+  color: var(--fourth);
+  font-size: 1.1rem;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 6rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: var(--fourth);
+  height: 50vh;
+}
+
+.satu {
+  padding-top: 2.7rem;
+}
+
+.satu a {
+  color: var(--fourth);
+  text-decoration: none;
+}
+
+.dua {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.5rem;
+}
+
+.cab,
+.cabb,
+.cabbb,
+.cabbbb {
+  display: flex;
+  flex-direction: column;
+}
+
+.dua a {
+  color: var(--fourth);
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+}
+
+.dua {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+
+.cab,
+.cabb,
+.cabbb,
+.cabbbb {
+  display: flex;
+  flex-direction: column;
+}
+
+.dua a {
+  color: var(--fourth);
+  margin-bottom: 0.8rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.dropdownn {
+  border: 1px solid white;
+  outline: #fff;
+  width: 230px;
+  font-size: 1.3rem;
+}
+
+.tiga {
+  margin-top: 1.5rem;
+}
